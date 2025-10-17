@@ -1,0 +1,135 @@
+{
+  // ────────────────────────────── 🌐 Интерфейс ──────────────────────────────
+  "window.openFilesInNewWindow": "off",
+  "window.menuBarVisibility": "compact",
+  "window.density.editorTabHeight": "compact",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "flow-dim",
+  "workbench.colorTheme": "Atom One Dark",
+  "chat.commandCenter.enabled": false,
+  // ────────────────────────────── ✍️ Редактор ──────────────────────────────
+  "editor.tabSize": 5,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 160,
+  "editor.wrappingIndent": "same",
+  "editor.scrollBeyondLastLine": true,
+  "editor.folding": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.lineHeight": 25,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.renderLineHighlight": "line",
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.vertical": "auto",
+  "editor.minimap.enabled": false,
+  "editor.matchBrackets": "always",
+  "editor.smoothScrolling": false,
+  "editor.selectionHighlight": true,
+  "editor.glyphMargin": false,
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.formatOnSave": true,
+
+  // ────────────────────────────── 🧠 Подсказки ──────────────────────────────
+  "editor.codeLens": false,
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.parameterHints.enabled": true,
+
+  // ────────────────────────────── 💅 Форматирование ──────────────────────────────
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "prettier.useTabs": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.arrowParens": "avoid",
+
+  // ────────────────────────────── 📂 Файлы и проект ──────────────────────────────
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.expo*": true,
+    "**/.vscode": false,
+    "**/dist": true,
+    "**/node_modules": false
+  },
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // ────────────────────────────── ⚙️ Языки и Emmet ──────────────────────────────
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "files.defaultLanguage": "markdown",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+  // ────────────────────────────── 🐙 Git и контроль версий ──────────────────────────────
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+
+  // ────────────────────────────── 🧩 Терминал ──────────────────────────────
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+
+  // ────────────────────────────── 🧰 Отладка и задачи ──────────────────────────────
+  "debug.toolBarLocation": "hidden",
+  "debug.showInlineBreakpointCandidates": false,
+  "debug.onTaskErrors": "debugAnyway",
+
+  // ────────────────────────────── 🧩 Форматтеры по языкам ──────────────────────────────
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+  "[javascript]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+  "[typescript]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+  "[typescriptreact]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+  "[python]": { "editor.defaultFormatter": "ms-python.python" },
+  "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[go]": { "editor.defaultFormatter": "golang.go" },
+  "[dockercompose]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[yaml]": { "editor.defaultFormatter": "redhat.vscode-yaml" },
+
+  // ────────────────────────────── 🚀 Прочее ──────────────────────────────
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.empty.hint": "hidden",
+  "window.commandCenter": false
+}
